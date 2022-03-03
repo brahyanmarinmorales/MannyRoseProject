@@ -28,5 +28,57 @@
 }
 
 .img-RE{
-    margin:;
+    
 }
+
+/*CSS footer for the Index page start*/
+footer{
+    width: 100%;
+    background-color: var(--light-green);
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer .social_icons, footer .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+footer .social_icons li, footer .menu li{
+    list-style: none;
+}
+footer .social_icons li a{
+    font-size: 2em;
+    color: var(--black);
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+footer .social_icons li a:hover{
+    transform: translateY(-10px);
+}
+footer .menu li a{
+    font-size: 1.2em;
+    color:var(--black);
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    opacity: 0.60;
+}
+footer .menu li a:hover{
+    opacity: 1;
+}
+footer p{
+    color: var(--black);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+/*CSS footer for the Index page end*/

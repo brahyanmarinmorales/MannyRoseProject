@@ -1,0 +1,23 @@
+{
+  "name": "coderhouse__project",
+  "version": "1.0.0",
+  "description": "This is project for Manny Rose about the assignment market, the folder container only",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brahyanmarinmorales/MannyRoseProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brahyanmarinmorales/MannyRoseProject/issues"
+  },
+  "homepage": "https://github.com/brahyanmarinmorales/MannyRoseProject#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

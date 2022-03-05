@@ -11,17 +11,21 @@
     --lg:4rem;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;800&family=Outfit:wght@300;400;600&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300&display=swap');
 
-* {
+body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Ubuntu", sans-serif;
+    font-family: 'Baloo 2', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(60deg, var(--black), var(--gray));
 }
 .navbar {
     background-color: var(--black);
 }
+
 .main-div-1{
     background-color: var(--light-green);
     text-align: center;
@@ -29,7 +33,23 @@
 .index_paragraph {
     color: var(--supersoftblue);
 }
-
+.index_dropdown{
+    background-color: transparent;
+    border: none;
+}
+.index_btn{
+    display: inline-block;
+    padding: 5px 0px;
+    background-color: var(--light-green);
+    color: var(--black);
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
 /*CSS footer for the Index page start*/
 footer{
     width: 100%;

@@ -20,14 +20,14 @@ body {
     font-family: 'Baloo 2', sans-serif;
     font-family: 'Outfit', sans-serif;
     font-family: 'Ubuntu', sans-serif;
-    background: linear-gradient(60deg, var(--black), var(--gray));
+    background: linear-gradient(60deg, var(--gray), var(--black));
 }
 .navbar {
     background-color: var(--black);
 }
 
 .main-div-1{
-    background-color: var(--light-green);
+    background: linear-gradient(90deg, rgba(211,251,250,1) 0%, rgba(119,209,188,1) 50%, rgba(211,251,250,1) 100%);
     text-align: center;
 }
 .index_paragraph {
@@ -101,3 +101,67 @@ footer p{
     background-color: transparent;
 }
 /*CSS footer for the Index page end*/
+
+/* CSS for the discover page start */
+
+.main__title{
+    color: var(--soft-orange);
+    text-align: center;
+    padding: 3% 2% 3% 2%;
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin-bottom: 5%;
+}
+.product-card{
+    width: 300px;
+    border-bottom: solid 1px var(--supersoftblue);
+}
+.product-card img{
+    border-radius: 30px;
+    object-fit: cover;
+}
+.product-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--supersoftblue);
+}
+.product-info div h3{
+    text-align: center;
+    padding: 2%;
+    color: var(--soft-orange);
+    font-size: 1.2rem;
+}
+.product-info p{
+    text-align: center;
+    font-size: 1em;
+}
+
+.labels{
+    list-style: none;
+    padding: 2% 0 2% 0;
+    color: var(--soft-orange);
+    text-align: center;
+}
+
+.product-info figure img{
+    width: 50px;
+}
+.product-info figure{
+    display: flex;
+    margin: 1rem;
+
+}
+.product-info figure span{
+    font-size: 1.5rem;
+    align-self: center;
+    padding-left: 3%;
+    color:var(--soft-orange)
+}
+/*CSS for the discover page end*/

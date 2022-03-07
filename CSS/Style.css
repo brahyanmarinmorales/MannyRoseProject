@@ -165,3 +165,18 @@ footer p{
     color:var(--soft-orange)
 }
 /*CSS for the discover page end*/
+
+/*CSS for the login page start*/
+
+.login-tittle{
+    color: var(--skyblue_light);
+    text-align: center;
+}
+.login-label{
+    color: var(--soft-orange);
+}
+.login-input{
+    padding: 9px 25px;
+}
+
+/*CSS for the login page end*/

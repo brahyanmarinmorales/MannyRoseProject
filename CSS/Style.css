@@ -39,7 +39,7 @@ body {
 }
 .index_btn{
     display: inline-block;
-    padding: 5px 0px;
+    padding: 9px 25px;
     background-color: var(--light-green);
     color: var(--black);
     font-weight: bold;
@@ -180,3 +180,20 @@ footer p{
 }
 
 /*CSS for the login page end*/
+
+/*CSS for the recovery page start*/
+
+.recovery-img{
+    margin-top: 20vh;
+    color: var(--supersoftblue);
+}
+
+.recovery-label{
+    color: var(--soft-orange);
+}
+.form-text{
+    margin-bottom: 30vh;
+}
+
+
+/*CSS for the recovery page end*/

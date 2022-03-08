@@ -175,9 +175,6 @@ footer p{
 .login-label{
     color: var(--soft-orange);
 }
-.login-input{
-    padding: 9px 25px;
-}
 
 /*CSS for the login page end*/
 
@@ -197,3 +194,20 @@ footer p{
 
 
 /*CSS for the recovery page end*/
+
+
+main .signup-main-h1{
+    color: var(--skyblue_light);
+    text-align: center;
+    padding: 5vh 15vh;
+}
+.form-label{
+    color: var(--soft-orange);
+    font-weight: bold;
+}
+.form-check-label{
+    color: var(--pink);
+}
+.btn-primary{
+    margin-bottom: 30vh;
+}

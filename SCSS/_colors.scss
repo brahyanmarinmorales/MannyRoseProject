@@ -1,0 +1,52 @@
+$skyblue_light:#77D1BC;
+$analogous:#02030D;
+$container-color:#C63B3E;
+$gray:#404043;
+$black:#000000;
+$light-green:#C3E879;
+$soft-orange:#DEB673;
+$pink:#DE73AB;
+$supersoftblue:#d3fbfa;
+
+body {
+    background: $black;
+}
+
+.navbar{
+    background-color: $black;
+}
+.index_dropdown{
+    background-color: $black;
+}
+.index_btn {
+    background-color: $light-green;
+    color: $black;
+    &:hover{
+            background-color: $skyblue_light;
+    }
+}
+.main-div-1{
+    background: $skyblue_light;
+    h1{
+        color: $black;
+    }
+    section{
+        h4{
+            color: $black;
+        }
+    }
+}
+.index_paragraph{
+    color: $supersoftblue;
+}
+
+footer {
+    background-color: $light-green;
+    ul{
+        li{
+            a{
+                color: $black;
+            }
+        }
+    }
+}

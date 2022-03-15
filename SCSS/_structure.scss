@@ -6,7 +6,7 @@
 .main-div-1{
     h1{
         text-align: center;
-        padding: 10rem 10rem 5rem 10rem;
+        padding: 5rem 0rem 5rem 0rem;
     }
     section{
         padding: 0 1rem 10rem 1rem;
@@ -75,5 +75,67 @@ footer{
                 }
             }
         }
+    }
+}
+.main__title{
+    text-align: center;
+    margin: 5vh 0 10vh 0;
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+    margin-bottom: 5%;
+    .product-card{
+        width: 300px;
+        border-radius: 30px;
+        .product-card img{
+            border-radius: 30px;
+            object-fit: cover;
+        }
+        .product-info{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            div h3{
+                text-align: center;
+                padding: 2%;
+            }
+            div p{
+                text-align: center;
+                margin: 6%;
+
+            }
+            .labels{
+                list-style: none;
+                padding: 2% 0 2% 0;
+                text-align: center;
+            }
+        }
+        figure{
+            display: flex;
+            margin: 1rem;
+        }
+        figure img{
+            width: 50px;
+
+        }
+        figure span{
+            align-self: center;
+            padding-left: 3%;
+        }
+    
+    }
+}
+.login-tittle{
+    text-align: center;
+    margin: 3rem 0 3rem 0;
+}
+.login-form{
+    .login-input{
+        width: 10px;
     }
 }

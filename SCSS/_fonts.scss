@@ -1,0 +1,35 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar{
+    a{font-size: 1em;}
+    .index_btn{
+        font-size: 1.2em;
+        font-weight: bold;
+        text-align: center;
+    }
+
+}
+.main-div-1{
+    h1{
+        font-size: 4rem;
+        font-weight: bolder;
+    }
+    section{
+        h4{
+            font-size: 2em;
+            font-weight: 400;
+        }
+    }
+}
+footer{
+    .icon{
+        font-size: 30px;
+    }
+    .menu{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 0.7rem;
+    }
+}

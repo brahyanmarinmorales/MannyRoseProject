@@ -28,6 +28,19 @@ footer {
   footer ul li a {
     color: #000000; }
 
+.main__title {
+  color: #DEB673;
+  text-decoration: underline white; }
+
+.product-card {
+  background: linear-gradient(#d3fbfa, 97%, #404043); }
+  .product-card .product-info div h3 {
+    color: #000000; }
+  .product-card .product-info div .labels li {
+    color: #C63B3E; }
+  .product-card .product-info figure span {
+    color: green; }
+
 .index_btn {
   padding: 9px 20px;
   border: none;
@@ -35,7 +48,7 @@ footer {
 
 .main-div-1 h1 {
   text-align: center;
-  padding: 10rem 10rem 5rem 10rem; }
+  padding: 5rem 0rem 5rem 0rem; }
 
 .main-div-1 section {
   padding: 0 1rem 10rem 1rem; }
@@ -90,3 +103,78 @@ footer {
         opacity: 0.60; }
         footer .menu li a:hover {
           opacity: 1; }
+
+.main__title {
+  text-align: center;
+  margin: 5vh 0 10vh 0; }
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 15px;
+  margin-bottom: 5%; }
+  .cards-container .product-card {
+    width: 300px;
+    border-radius: 30px; }
+    .cards-container .product-card .product-card img {
+      border-radius: 30px;
+      object-fit: cover; }
+    .cards-container .product-card .product-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center; }
+      .cards-container .product-card .product-info div h3 {
+        text-align: center;
+        padding: 2%; }
+      .cards-container .product-card .product-info div p {
+        text-align: center;
+        margin: 6%; }
+      .cards-container .product-card .product-info .labels {
+        list-style: none;
+        padding: 2% 0 2% 0;
+        text-align: center; }
+    .cards-container .product-card figure {
+      display: flex;
+      margin: 1rem; }
+    .cards-container .product-card figure img {
+      width: 50px; }
+    .cards-container .product-card figure span {
+      align-self: center;
+      padding-left: 3%; }
+
+.login-tittle {
+  text-align: center;
+  margin: 3rem 0 3rem 0; }
+
+.login-form .login-input {
+  width: 10px; }
+
+body {
+  font-family: 'Ubuntu', sans-serif; }
+
+.navbar a {
+  font-size: 1em; }
+
+.navbar .index_btn {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center; }
+
+.main-div-1 h1 {
+  font-size: 4rem;
+  font-weight: bolder; }
+
+.main-div-1 section h4 {
+  font-size: 2em;
+  font-weight: 400; }
+
+footer .icon {
+  font-size: 30px; }
+
+footer .menu {
+  font-size: 1rem; }
+
+footer p {
+  font-size: 0.7rem; }

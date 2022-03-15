@@ -50,3 +50,26 @@ footer {
         }
     }
 }
+
+.main__title{
+    color: $soft-orange;
+    text-decoration: underline white;
+}
+
+.product-card{
+    background: linear-gradient($supersoftblue, 97%, $gray);
+    .product-info{
+        div h3{
+            color: $black;
+
+
+        }
+        div .labels li{
+            color: $container-color;
+        }
+        figure span{
+            color: green;
+        }
+    }
+
+}

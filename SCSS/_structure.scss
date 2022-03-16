@@ -148,23 +148,74 @@ footer{
 }
 .sign_up_form{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding: 5vh;
     margin-bottom: 10vh;
-    border: 2px solid;
 
     .SignLabel{
         display: inline-block;
-        grid-column: 2 / 3;
-        width: 30%;
+        grid-column: 1 / 2;
+        margin: 1vh;
+        justify-self: start;
     }
     .SignInput{
         display: inline-block;
-        grid-column: 2 / 3;
-        
-        width: 50%;
+        grid-column: 2 / 4;
+        margin: 1vh;
+        width: 100%;
     }
-    .registerButton{
-        margin-top: 5vh;
-    }
+}
+.registerButton{
+    margin-bottom: 10vh;
+}
+.form-check{
+   display: grid;
+   grid-template-columns: 1fr;
+   justify-items: center;
+}
+
+/*Recovery Email*/
+
+.recovery-form{
+    display: grid;
+   grid-template-columns: 1fr;
+   justify-items: center;
+    margin-top: 10vh;
+}
+
+.form-text{
+    margin-bottom: 4vh;
+}
+.recovery-btn{
+    margin-bottom: 30vh;
+    padding: 1rem;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+@media screen and (min-width:680px){
+
+    .sign_up_form{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 5vh;
+        margin-bottom: 10vh;
+    
+        .SignLabel{
+            display: inline-block;
+            grid-column: 2 / 3;
+            margin: 1vh;
+            justify-self: center;
+        }
+        .SignInput{
+            display: inline-block;
+            grid-column: 3 / 4;
+            margin: 1vh;
+            width: 100%;
+        }
+    }    
 }

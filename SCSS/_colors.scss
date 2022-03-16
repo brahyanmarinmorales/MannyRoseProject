@@ -104,9 +104,33 @@ footer {
     .SignLabel{ 
         color: $soft-orange;
     }
-    .registerButton{
-        background-color: $soft-orange;
-        border: solid 1px white;
-        color: $black;
+   
+}
+.form-check{
+    color: $skyblue_light;
+}
+.registerButton{
+    background-color: $soft-orange;
+    border: solid 1px white;
+    color: $black;
+}
+
+/*Recovery Email*/
+
+.recovery-form{
+
+    .recovery-label{
+        color: $light-green;
     }
+}
+
+.recovery-btn{
+    background-color: $soft-orange;
+    color: $black;
+    border: solid 2px $supersoftblue;
+    transition: 200ms ease;
+    &:hover{
+        background-color: $skyblue_light;
+    }
+
 }

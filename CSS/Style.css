@@ -65,10 +65,26 @@ footer {
   border: #d3fbfa; }
   .sign_up_form .SignLabel {
     color: #DEB673; }
-  .sign_up_form .registerButton {
-    background-color: #DEB673;
-    border: solid 1px white;
-    color: #000000; }
+
+.form-check {
+  color: #77D1BC; }
+
+.registerButton {
+  background-color: #DEB673;
+  border: solid 1px white;
+  color: #000000; }
+
+/*Recovery Email*/
+.recovery-form .recovery-label {
+  color: #C3E879; }
+
+.recovery-btn {
+  background-color: #DEB673;
+  color: #000000;
+  border: solid 2px #d3fbfa;
+  transition: 200ms ease; }
+  .recovery-btn:hover {
+    background-color: #77D1BC; }
 
 .index_btn {
   padding: 9px 20px;
@@ -190,20 +206,59 @@ footer {
 
 .sign_up_form {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   padding: 5vh;
-  margin-bottom: 10vh;
-  border: 2px solid; }
+  margin-bottom: 10vh; }
   .sign_up_form .SignLabel {
     display: inline-block;
-    grid-column: 2 / 3;
-    width: 30%; }
+    grid-column: 1 / 2;
+    margin: 1vh;
+    justify-self: start; }
   .sign_up_form .SignInput {
     display: inline-block;
-    grid-column: 2 / 3;
-    width: 50%; }
-  .sign_up_form .registerButton {
-    margin-top: 5vh; }
+    grid-column: 2 / 4;
+    margin: 1vh;
+    width: 100%; }
+
+.registerButton {
+  margin-bottom: 10vh; }
+
+.form-check {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center; }
+
+/*Recovery Email*/
+.recovery-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  margin-top: 10vh; }
+
+.form-text {
+  margin-bottom: 4vh; }
+
+.recovery-btn {
+  margin-bottom: 30vh;
+  padding: 1rem;
+  border-radius: 30px; }
+
+@media screen and (min-width: 680px) {
+  .sign_up_form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 5vh;
+    margin-bottom: 10vh; }
+    .sign_up_form .SignLabel {
+      display: inline-block;
+      grid-column: 2 / 3;
+      margin: 1vh;
+      justify-self: center; }
+    .sign_up_form .SignInput {
+      display: inline-block;
+      grid-column: 3 / 4;
+      margin: 1vh;
+      width: 100%; } }
 
 body {
   font-family: 'Ubuntu', sans-serif; }

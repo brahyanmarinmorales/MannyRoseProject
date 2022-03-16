@@ -135,7 +135,36 @@ footer{
     margin: 3rem 0 3rem 0;
 }
 .login-form{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
     .login-input{
-        width: 10px;
+        width: 40vw;
+    }
+}
+.signUpTittle{
+    text-align: center;
+    margin: 7%;
+}
+.sign_up_form{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5vh;
+    margin-bottom: 10vh;
+    border: 2px solid;
+
+    .SignLabel{
+        display: inline-block;
+        grid-column: 2 / 3;
+        width: 30%;
+    }
+    .SignInput{
+        display: inline-block;
+        grid-column: 2 / 3;
+        
+        width: 50%;
+    }
+    .registerButton{
+        margin-top: 5vh;
     }
 }

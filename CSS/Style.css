@@ -1,6 +1,9 @@
 body {
   background: #000000; }
 
+.discover-body {
+  background: white; }
+
 .navbar {
   background-color: #000000; }
 
@@ -40,6 +43,32 @@ footer {
     color: #C63B3E; }
   .product-card .product-info figure span {
     color: green; }
+
+.login-tittle {
+  color: #77D1BC; }
+
+.login-form .login-label {
+  color: #d3fbfa; }
+
+.login-form .btn-primary {
+  background-color: #DEB673;
+  color: #000000;
+  border: solid 1px white; }
+
+.login-links p a {
+  color: #DEB673; }
+
+.signUpTittle {
+  color: #77D1BC; }
+
+.sign_up_form {
+  border: #d3fbfa; }
+  .sign_up_form .SignLabel {
+    color: #DEB673; }
+  .sign_up_form .registerButton {
+    background-color: #DEB673;
+    border: solid 1px white;
+    color: #000000; }
 
 .index_btn {
   padding: 9px 20px;
@@ -148,8 +177,33 @@ footer {
   text-align: center;
   margin: 3rem 0 3rem 0; }
 
-.login-form .login-input {
-  width: 10px; }
+.login-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center; }
+  .login-form .login-input {
+    width: 40vw; }
+
+.signUpTittle {
+  text-align: center;
+  margin: 7%; }
+
+.sign_up_form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 5vh;
+  margin-bottom: 10vh;
+  border: 2px solid; }
+  .sign_up_form .SignLabel {
+    display: inline-block;
+    grid-column: 2 / 3;
+    width: 30%; }
+  .sign_up_form .SignInput {
+    display: inline-block;
+    grid-column: 2 / 3;
+    width: 50%; }
+  .sign_up_form .registerButton {
+    margin-top: 5vh; }
 
 body {
   font-family: 'Ubuntu', sans-serif; }

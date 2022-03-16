@@ -11,6 +11,9 @@ $supersoftblue:#d3fbfa;
 body {
     background: $black;
 }
+.discover-body{
+    background: white;
+}
 
 .navbar{
     background-color: $black;
@@ -72,4 +75,38 @@ footer {
         }
     }
 
+}
+
+.login-tittle{
+    color: $skyblue_light;
+}
+.login-form{
+    .login-label{
+        color: $supersoftblue;
+    }
+    .btn-primary{
+        background-color: $soft-orange;
+        color: $black;
+        border: solid 1px white;
+    }
+}
+.login-links{
+    p a{
+        color: $soft-orange;
+    }
+}
+
+.signUpTittle{
+    color: $skyblue_light;
+}
+.sign_up_form{
+    border: $supersoftblue;
+    .SignLabel{ 
+        color: $soft-orange;
+    }
+    .registerButton{
+        background-color: $soft-orange;
+        border: solid 1px white;
+        color: $black;
+    }
 }

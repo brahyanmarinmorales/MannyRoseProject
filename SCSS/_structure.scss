@@ -82,6 +82,27 @@ footer{
     margin: 5vh 0 10vh 0;
 }
 
+.discover-search{
+    position: sticky;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .dis-city, .dis-search{
+        margin-bottom: 4vh;
+        border-radius: 30px;
+        padding: 0.5rem;
+    }
+    .discover-range{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 4vh;
+        .discover-flabel{
+            text-align: center;
+            margin-bottom: 0.3em;
+        }
+    }
+
+}
 .cards-container{
     display: flex;
     flex-wrap: wrap;

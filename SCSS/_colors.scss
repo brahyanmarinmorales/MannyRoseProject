@@ -12,7 +12,7 @@ body {
     background: $black;
 }
 .discover-body{
-    background: white;
+   
 }
 
 .navbar{
@@ -77,6 +77,11 @@ footer {
 
 }
 
+.body-login{ 
+    background:rgba(0, 0, 0, 0.877)url(/Images/black-and-white-city-houses-skyline.jpg);
+    background-position: bottom;
+    
+}
 .login-tittle{
     color: $skyblue_light;
 }

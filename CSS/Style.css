@@ -1,9 +1,6 @@
 body {
   background: #000000; }
 
-.discover-body {
-  background: white; }
-
 .navbar {
   background-color: #000000; }
 
@@ -43,6 +40,10 @@ footer {
     color: #C63B3E; }
   .product-card .product-info figure span {
     color: green; }
+
+.body-login {
+  background: rgba(0, 0, 0, 0.877) url(/Images/black-and-white-city-houses-skyline.jpg);
+  background-position: bottom; }
 
 .login-tittle {
   color: #77D1BC; }
@@ -152,6 +153,23 @@ footer {
 .main__title {
   text-align: center;
   margin: 5vh 0 10vh 0; }
+
+.discover-search {
+  position: sticky;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .discover-search .dis-city, .discover-search .dis-search {
+    margin-bottom: 4vh;
+    border-radius: 30px;
+    padding: 0.5rem; }
+  .discover-search .discover-range {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4vh; }
+    .discover-search .discover-range .discover-flabel {
+      text-align: center;
+      margin-bottom: 0.3em; }
 
 .cards-container {
   display: flex;

@@ -1,0 +1,74 @@
+@import "_colors.scss";
+
+body{
+    background-color: $background1;
+}
+.carousel{
+    margin: 3vh;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px $black;
+    .carousel-item{
+        
+        img{
+            border-radius: 10px;
+        }
+    }
+}
+
+.main-div-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $light-green +20;
+    padding: 5vh 0 5vh 0;
+    margin: 4vh 2.5vh 4vh 2.5vh;
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px $black;
+
+    .index-tittle{
+        text-align: center;
+        font-weight: bolder;
+        font-size: 2.5rem;
+        color:$light-green-complementary;
+        letter-spacing: 4px;
+        /*text-shadow: -1px 0 white, 0 2px white, 2px 0 white, 0 -1px white;*/
+    }
+    .benefit-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .benefit-img{
+        height: 150px;
+        width: auto;
+        
+        }
+        h4{
+            text-align: center;
+            color: $light-green-complementary;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+    }
+
+}
+.index-pg-container1,.index-pg-container2{
+    display: flex;
+    align-items: flex-start;
+    margin: 4vh;
+    .index-pg-img1{
+        width: 300px;
+        border-radius: 30px;
+        float: left;
+        margin: 2em;
+
+    }
+    .index-pg-img2{
+        width: 300px;
+        border-radius: 30px;
+        float: right;
+        margin: 2em;
+    }
+    .index-pg-img{
+        box-shadow: 2px 2px 2px $gray
+    }
+}

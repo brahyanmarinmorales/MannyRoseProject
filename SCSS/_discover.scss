@@ -1,0 +1,39 @@
+.main__title{
+    text-align: center;
+}
+
+.discover-search{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1em;
+
+
+    border: solid 1px black;
+}
+
+.cards-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+
+
+    border: solid 1px black;
+}
+.product-card{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    flex-wrap: wrap;
+
+    border: solid 1px black;
+
+    img{
+        width: 300px;
+    }
+    figure{
+        img{
+            width: 30px;
+        }
+    }
+}

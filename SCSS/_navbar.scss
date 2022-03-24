@@ -1,0 +1,36 @@
+$skyblue_light:#77D1BC;
+$analogous:#02030D;
+$container-color:#C63B3E;
+$gray:#404043;
+$black:#000000;
+$light-green:#C3E879;
+$soft-orange:#DEB673;
+$pink:#DE73AB;
+$supersoftblue:#d3fbfa;
+
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    background-color: $black;
+    z-index: 999;
+    .navbar-brand{
+        margin: 1em 3em 1em 1em;
+    }
+    .nav-link1{
+        font-size: 1em;
+        color: $skyblue_light + 20;
+        text-decoration: none;
+        margin-right: 1em;
+        font-weight: 400;
+        letter-spacing: 3px;
+    }
+
+    .index_btn{
+        font-size: 1.2em;
+        font-weight: bold;
+        text-align: center;
+    }
+}

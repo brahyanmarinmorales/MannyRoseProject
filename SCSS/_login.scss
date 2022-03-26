@@ -1,0 +1,65 @@
+@import "_colors.scss";
+
+.body-login{
+    background: $black;
+}
+
+.container{
+    margin: 3em auto 3em auto;
+    background-color: $black;
+    border-radius: 10px;
+    padding: 0.5em;
+
+    .login-tittle{
+        padding: 0.5em 0.5em;
+        text-align: center;
+        font-weight: 900;
+        text-shadow: -1px 0 $supersoftblue, 0 1px $supersoftblue, 1px 0 $supersoftblue, 0 -1px $supersoftblue;
+
+    }
+
+    .login-form{
+        background-color: $black;
+        color: $supersoftblue;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .login-input{
+            border: none;
+            border-radius: 40px;
+            padding: 0.4em;
+
+            &:hover,:focus{
+                box-shadow: 2px 3px 5px $soft-orange;
+            }
+        }
+        .btn-login{
+            margin-bottom: 4em;
+            padding: 0.7em 3em 0.7em 3em;
+            background-color: $light-green;
+            border-radius: 30px;
+            font-weight: bolder;
+            &:hover{
+                box-shadow: -2px 0 2px $supersoftblue, 0 2px 2px $supersoftblue, 2px 0 2px $supersoftblue, 0 -2px 2px $supersoftblue;
+            }
+
+        }
+
+    }
+    .login-links{
+        a{
+            text-decoration: none;
+            color: $soft-orange;
+            padding: 0.4em;
+            margin: 0.5em;
+            transition: 0.4s ease-in-out;
+            opacity: 0.6;
+            &:hover{
+                color: $skyblue_light;
+                opacity: 1;
+                
+            }
+        }
+    }
+}

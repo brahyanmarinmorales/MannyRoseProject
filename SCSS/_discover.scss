@@ -1,35 +1,87 @@
+@import "_colors.scss";
+
 .main__title{
     text-align: center;
+    margin: 1em;
+    text-shadow: 1px 2px $pink;
 }
 
 .discover-search{
+    margin: 1em;
+    padding: 0.1em;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 1em;
+   
+    .dis-city{
+        margin: 0.5em;
+        border-radius: 50px;
+        background-color: $light-green;
+        text-align: center;
+        border: 1px solid $black;
+        box-shadow: 2px 2px 10px $gray;
+        transition: 0.5ms;
+        &:hover{
+            background-color: $skyblue_light;
+        }
+    }
+    .discover-range{
+        margin: 0.5em;
+        display: flex;
+        gap: 0.4em;
+    }
+    .dis-search{
+        margin: 0.5em;
+        border-radius: 20px;
+        padding: 0.2em;
+        border: 1px solid white;
+        box-shadow: 0px 2px 5px $skyblue_light;
+        &:hover,&:focus{
+            box-shadow: 0px 5px 5px $soft-orange;
+        }
+    }
 
-
-    border: solid 1px black;
 }
 
 .cards-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 10px;
-
-
-    border: solid 1px black;
+    padding: 1em;
+   @media (min-width:540px){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        padding: 1em;
+    }
+    @media (min-width:960px){
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        padding: 1em;
+    }
 }
 .product-card{
     display: flex;
     flex-direction: column;
     width: auto;
     flex-wrap: wrap;
+    margin: 1rem;
+    padding: 1em;
+    background-color: white;
+    border-radius: 10px;
+    transition: 0.5s ease;
+    box-shadow: -2px 0 $skyblue_light, 0 2px $soft-orange, 2px 0 $skyblue_light, 0 -2px $soft-orange;
+    &:hover{
+        transform: translateY(-10px);
+        box-shadow: -1px 0 $soft-orange, 0 2px $skyblue_light, 1px 0 $soft-orange, 0 -1px $skyblue_light;
+    }
 
-    border: solid 1px black;
-
-    img{
-        width: 300px;
+    .cover-pic-discover{
+        width: 400px;
+        border-radius: 10px;
+        box-shadow: 1px 2px 2px $gray;
+        margin: 0 0 10px 0;
     }
     figure{
         img{

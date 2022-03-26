@@ -13,10 +13,19 @@ body {
     margin-right: 1em;
     font-weight: 400;
     letter-spacing: 3px; }
-  .navbar .index_btn {
-    font-size: 1.2em;
-    font-weight: bold;
-    text-align: center; }
+  .navbar .index_dropdown {
+    background: #000000;
+    padding: 0.5em;
+    border-radius: 20px; }
+    .navbar .index_dropdown .dropdown-divider {
+      color: #DEB673;
+      font-weight: bolder; }
+    .navbar .index_dropdown .index_btn {
+      font-size: 1.2em;
+      font-weight: bold;
+      text-align: center;
+      background-color: #C3E879;
+      border-radius: 40px; }
 
 footer {
   width: 100%;
@@ -124,28 +133,120 @@ body {
     box-shadow: 2px 2px 2px #404043; }
 
 .main__title {
-  text-align: center; }
+  text-align: center;
+  margin: 1em;
+  text-shadow: 1px 2px #DE73AB; }
 
 .discover-search {
+  margin: 1em;
+  padding: 0.1em;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 1em;
-  border: solid 1px black; }
+  justify-content: space-around; }
+  .discover-search .dis-city {
+    margin: 0.5em;
+    border-radius: 50px;
+    background-color: #C3E879;
+    text-align: center;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 10px #404043;
+    transition: 0.5ms; }
+    .discover-search .dis-city:hover {
+      background-color: #77D1BC; }
+  .discover-search .discover-range {
+    margin: 0.5em;
+    display: flex;
+    gap: 0.4em; }
+  .discover-search .dis-search {
+    margin: 0.5em;
+    border-radius: 20px;
+    padding: 0.2em;
+    border: 1px solid white;
+    box-shadow: 0px 2px 5px #77D1BC; }
+    .discover-search .dis-search:hover, .discover-search .dis-search:focus {
+      box-shadow: 0px 5px 5px #DEB673; }
 
 .cards-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 10px;
-  border: solid 1px black; }
+  padding: 1em; }
+  @media (min-width: 540px) {
+    .cards-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      padding: 1em; } }
+  @media (min-width: 960px) {
+    .cards-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px;
+      padding: 1em; } }
 
 .product-card {
   display: flex;
   flex-direction: column;
   width: auto;
   flex-wrap: wrap;
-  border: solid 1px black; }
-  .product-card img {
-    width: 300px; }
+  margin: 1rem;
+  padding: 1em;
+  background-color: white;
+  border-radius: 10px;
+  transition: 0.5s ease;
+  box-shadow: -2px 0 #77D1BC, 0 2px #DEB673, 2px 0 #77D1BC, 0 -2px #DEB673; }
+  .product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: -1px 0 #DEB673, 0 2px #77D1BC, 1px 0 #DEB673, 0 -1px #77D1BC; }
+  .product-card .cover-pic-discover {
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px #404043;
+    margin: 0 0 10px 0; }
   .product-card figure img {
     width: 30px; }
+
+.body-login {
+  background: #000000; }
+
+.container {
+  margin: 3em auto 3em auto;
+  background-color: #000000;
+  border-radius: 10px;
+  padding: 0.5em; }
+  .container .login-tittle {
+    padding: 0.5em 0.5em;
+    text-align: center;
+    font-weight: 900;
+    text-shadow: -1px 0 #d3fbfa, 0 1px #d3fbfa, 1px 0 #d3fbfa, 0 -1px #d3fbfa; }
+  .container .login-form {
+    background-color: #000000;
+    color: #d3fbfa;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .container .login-form .login-input {
+      border: none;
+      border-radius: 40px;
+      padding: 0.4em; }
+      .container .login-form .login-input:hover, .container .login-form .login-input :focus {
+        box-shadow: 2px 3px 5px #DEB673; }
+    .container .login-form .btn-login {
+      margin-bottom: 4em;
+      padding: 0.7em 3em 0.7em 3em;
+      background-color: #C3E879;
+      border-radius: 30px;
+      font-weight: bolder; }
+      .container .login-form .btn-login:hover {
+        box-shadow: -2px 0 2px #d3fbfa, 0 2px 2px #d3fbfa, 2px 0 2px #d3fbfa, 0 -2px 2px #d3fbfa; }
+  .container .login-links a {
+    text-decoration: none;
+    color: #DEB673;
+    padding: 0.4em;
+    margin: 0.5em;
+    transition: 0.4s ease-in-out;
+    opacity: 0.6; }
+    .container .login-links a:hover {
+      color: #77D1BC;
+      opacity: 1; }

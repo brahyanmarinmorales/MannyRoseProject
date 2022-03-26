@@ -27,10 +27,25 @@ body{
         font-weight: 400;
         letter-spacing: 3px;
     }
+    .index_dropdown{
+        background: $black;
+        padding: 0.5em;
+        border-radius: 20px;
 
-    .index_btn{
-        font-size: 1.2em;
-        font-weight: bold;
-        text-align: center;
+        .dropdown-divider{
+            color: $soft-orange;
+            font-weight: bolder;
+        }
+
+
+        .index_btn{
+            font-size: 1.2em;
+            font-weight: bold;
+            text-align: center;
+            background-color: $light-green;
+            border-radius: 40px;
+        }
     }
+
+    
 }

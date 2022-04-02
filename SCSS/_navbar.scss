@@ -1,20 +1,11 @@
-$skyblue_light:#77D1BC;
-$analogous:#02030D;
-$container-color:#C63B3E;
-$gray:#404043;
-$black:#000000;
-$light-green:#C3E879;
-$soft-orange:#DEB673;
-$pink:#DE73AB;
-$supersoftblue:#d3fbfa;
-
+@import "_colors.scss";
 
 body{
     font-family: 'Ubuntu', sans-serif;
 }
 
 .navbar{
-    background-color: $black;
+    background-color: $complementary-shadow;
     z-index: 999;
     .navbar-brand{
         margin: 1em 3em 1em 1em;
@@ -28,12 +19,12 @@ body{
         letter-spacing: 3px;
     }
     .index_dropdown{
-        background: $black;
+        background: $primary;
         padding: 0.5em;
         border-radius: 20px;
 
         .dropdown-divider{
-            color: $soft-orange;
+            color: $complementary-shadow;
             font-weight: bolder;
         }
 
@@ -43,6 +34,7 @@ body{
             text-align: center;
             background-color: $light-green;
             border-radius: 40px;
+        
         }
     }
 

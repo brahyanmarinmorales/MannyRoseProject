@@ -1,9 +1,10 @@
 @import "_colors.scss";
+@import "_fonts.scss";
 
 
 footer{
     width: 100%;
-    background-color: $complementary-shadow;
+    background-color: $black;
     min-height: 20vh;
     display: flex;
     justify-content: center;

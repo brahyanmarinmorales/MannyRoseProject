@@ -1,4 +1,5 @@
 @import "_colors.scss";
+@import "_fonts.scss";
 
 .body-login{
     background:url(/Images/login-background-2-edit.jpg);
@@ -16,6 +17,7 @@
     .login-tittle{
         padding: 0.5em 0.5em;
         font-size: 4em;
+        font-family: $title;
         text-align: center;
         font-weight: 900;
         text-shadow: -1px 0 $primary-light, 0 1px $primary-light, 1px 0 $primary-light, 0 -1px $primary-light;
@@ -23,7 +25,7 @@
     }
 
     .login-form{
-        background-color: transparent;
+        font-family: $paragraph;
         color: $primary-light;
         border-radius: 10px;
         display: flex;
@@ -47,17 +49,14 @@
         .btn-login{
             margin-bottom: 4em;
             padding: 0.7em 3em 0.7em 3em;
-            background-color: $light-green;
+            background-color: $primary;
             border-radius: 30px;
             font-weight: bolder;
-            &:hover{
-                box-shadow: -2px 0 2px $supersoftblue, 0 2px 2px $supersoftblue, 2px 0 2px $supersoftblue, 0 -2px 2px $supersoftblue;
-            }
-
         }
 
     }
     .login-links{
+        font-family: $paragraph;
         a{
             text-decoration: underline;
             color: $complementary-light;
@@ -65,10 +64,7 @@
             padding: 0.4em;
             margin: 0.5em;
             transition: 0.5s;
-            :hover{
-                transform: translateX(5px);
-            }
-        
+            
         }
     }
 }

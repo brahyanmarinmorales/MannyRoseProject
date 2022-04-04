@@ -1,25 +1,22 @@
 @import "_colors.scss";
-
-body{
-    font-family: 'Ubuntu', sans-serif;
-}
+@import "_fonts.scss";
 
 .navbar{
-    background-color: $complementary-shadow;
+    background-color: $black;
     z-index: 999;
     .navbar-brand{
         margin: 1em 3em 1em 1em;
     }
     .nav-link1{
-        font-size: 1em;
-        color: $skyblue_light + 20;
+        font-size: 1.1em;
+        font-family: $paragraph;
+        color: $primary;
         text-decoration: none;
         margin-right: 1em;
         font-weight: 400;
-        letter-spacing: 3px;
     }
     .index_dropdown{
-        background: $primary;
+        background: $primary-light;
         padding: 0.5em;
         border-radius: 20px;
 
@@ -29,11 +26,10 @@ body{
         }
 
         .index_btn{
-            font-size: 1.2em;
-            font-weight: bold;
-            text-align: center;
-            background-color: $light-green;
-            border-radius: 40px;
+            padding: 0.7em 3em 0.7em 3em;
+            background-color: $primary;
+            border-radius: 30px;
+            font-weight: bolder;
         
         }
     }

@@ -1,4 +1,5 @@
 @import "_colors.scss";
+@import "_fonts.scss";
 
 body{
     background-color: $primary-light;
@@ -23,12 +24,12 @@ body{
     padding: 5vh 0 5vh 0;
     margin: 4vh 0vh 4vh 0vh;
 
-
     .index-tittle{
         text-align: center;
+        font-family: $title;
         font-weight: bolder;
         font-size: 2.5rem;
-        color:$primary-light;
+        color:$black;
         letter-spacing: 4px;
         /*text-shadow: -1px 0 white, 0 2px white, 2px 0 white, 0 -1px white;*/
     }
@@ -43,9 +44,9 @@ body{
         }
         h4{
             text-align: center;
-            color: $primary-light;
+            font-family: $paragraph;
+            color: $black;
             font-weight: bold;
-            letter-spacing: 2px;
         }
     }
 
@@ -54,6 +55,7 @@ body{
     display: flex;
     align-items: flex-start;
     margin: 4vh;
+    font-family: $paragraph;
     .index-pg-img1{
         width: 300px;
         border-radius: 30px;
@@ -68,6 +70,6 @@ body{
         margin: 2em;
     }
     .index-pg-img{
-        box-shadow: 2px 2px 2px $gray
+        
     }
 }

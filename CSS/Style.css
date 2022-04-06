@@ -204,7 +204,7 @@ body {
     width: 30px; }
 
 .body-login {
-  background: url(/Images/login-background-2-edit.jpg);
+  background: url(/Images/login-background-2-edit.jpeg);
   background-repeat: no-repeat;
   background-size: 100;
   background-position: 3px; }
@@ -281,7 +281,7 @@ body {
       background: #C3E879; }
 
 .sign-up-body {
-  background-image: url(/Images/login-background-2-edit.jpg); }
+  background-image: url(/Images/login-background-2-edit.jpeg); }
 
 .sign-container {
   margin: 2em 0.7em 2em 0.7em;
